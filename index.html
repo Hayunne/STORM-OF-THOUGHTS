@@ -9,25 +9,37 @@
     <script src="main.js"></script>
 </head>
 <body>
+        <div id="app">
         
-    <div id="app">
+                <h1 v-if="logado"> {{usuario}}</h1>
         
-        <h1 v-if="logado"> {{usuario}}</h1>
+                <input  placeholder="email" v-model="message" v-else>
+            {{message}}
+            <br>
+            <input type="password" placeholder="Senha" v-model= "message2"></input>
+            {{message2}}
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+            <script>
+                var app = new Vue({
+                el: '#app',
+                data: {
+                    message: '' , 
+                    logado: false ,
+                    usuario: 'Marcelo',
+                    message2: ''
+                }
+            }) 
+            </script>
+        <div class="atividade">
 
-        <input v-model="message" v-else>
-    {{message}}
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <script>
-        var app = new Vue({
-        el: '#app',
-        data: {
-            message: 'Faça o login' , 
-            logado: false ,
-            usuario: 'Marcelo'
-        }
-    }) 
-    </script>
-
+                <form>
+        
+            
+                    <br> </br>
+                    <a><input type="submit" value="entrar"></a>
+                </form>
+        
+            </div>
 </body>
 </html>
