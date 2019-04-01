@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Login from './views/Login.vue'
 import Frases from './views/Frases.vue'
+import Home from './views/Home.vue'
 
 
 Vue.use(Router)
@@ -11,14 +12,17 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
+      path: '/login',
       name: 'login',
       component: Login
     },
-
-     { path: '/-',
+    { path: '/frases',
       name: 'Frases',
       component: Frases
+    },
+    { path: '/',
+      name: 'Home',
+      component: Home
     }
 
   ]
