@@ -12,14 +12,32 @@
         justify-center
         fill-height
       >
-        <h1 class="display-2 font-weight-thin mb-3">Frases</h1>
-
-        <h4 class="subheading">Livros, filmes, musicas, frases filosoficas</h4>
-           <h4 class="subheading">Voce encontra tudo aqui!</h4>
-         <div class="text-xs-center">
-    <v-btn round color="primary" dark to='/login'>LOGIN</v-btn>
-    
-  </div>
+      <h1 class="display-2 font-weight-thin mb-3">STORM OF THOUGHTS</h1>
+      <v-card color="#CBB1F5" class="elevation-12 pa-5">
+        <form>
+        
+            <v-text-field
+              v-model="email"
+              :error-messages="emailErrors"
+              label="E-mail"
+              required
+              @input="$v.email.$touch()"
+              @blur="$v.email.$touch()"
+            ></v-text-field>
+            <v-text-field
+              v-model="email"
+              :error-messages="senhaErrors"
+              label="Senha"
+              required
+              @input="$v.senha.$touch()"
+              @blur="$v.senha.$touch()"
+            ></v-text-field>
+            <v-layout align-center justify-center>
+            <v-btn @click="submit">Entrar</v-btn>
+            </v-layout>
+        </form>
+      </v-card>
+        
 
         
       </v-layout>
