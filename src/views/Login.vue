@@ -2,8 +2,8 @@
 <template>
   <div>
      <v-layout>
-        <v-flex xs3>
-           <v-card color="#F5A9D0" class="elevation-12 pa-5">
+        <v-flex xs12 sm6 offset-sm3>
+           <v-card color="#F79F81" class="elevation-12 pa-5">
           <form>
           
               <v-text-field

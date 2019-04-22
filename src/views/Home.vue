@@ -9,7 +9,7 @@
         
         
       >
-      <h1 class="text-xs-center display-4 font-weight-black mt-5">STORM OF THOUGHTS</h1>
+      <h1 class="red--text text--lighten-2 text-xs-center display-4 font-weight-black mt-5">STORM OF THOUGHTS</h1>
        <v-layout
           align-center
           column
@@ -18,7 +18,7 @@
         >
           <form>
            <v-layout align-center justify-center>
-              <v-btn @click="submit">Entrar</v-btn>
+              <v-btn @click="submit" to="/login">Entrar</v-btn>
               </v-layout>
           </form>
       
@@ -45,12 +45,10 @@
                       <v-icon x-large class="blue--text text--lighten-2">color_lens</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-xs-center">Material Design</div>
+                      <div class="headline text-xs-center">Design</div>
                     </v-card-title>
                     <v-card-text>
-                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
-                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti. 
+                     Optamos por um layout dinâmico, moderno e fácil para que todos os usuarios possam compreender e utilizar sem dificuldade nosso recurso.s
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -60,12 +58,10 @@
                       <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline">Fast development</div>
+                      <div class="headline">Storm Of Thoughts</div>
                     </v-card-title>
                     <v-card-text>
-                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
-                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti. 
+                      O nome Storm Of Thoughts em português "Tempestade de pensamentos", surgiu em conjuto com a ideia geral do site como uma forma de conectar a Literatura-Filmes, Séries, Músicas e Frases- em um unico ambiente utilizando da tecnologia tendo em vista que após analises compreendemos um grande interesse dos usuários por estes assuntos por meio desta plataforma.
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -75,12 +71,10 @@
                       <v-icon x-large class="blue--text text--lighten-2">build</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-xs-center">Completely Open Sourced</div>
+                      <div class="headline text-xs-center">Recursos</div>
                     </v-card-title>
                     <v-card-text>
-                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
-                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti. 
+                     A arquitetura do site foi criada com base em Frameworks encontrados na plataforma Vue e Vuetify sendo programado no software Visual Code Studio e contou com o auxilio de profissionais da área de programação, já que foi criado por iniciantes.
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -93,15 +87,15 @@
       <section>
         <v-parallax src="http://www.mariacenoura.pt/ptpictures/f/135/1359069_firewatch-wallpaper-1920x1080.png" height="600">
           <v-layout column align-center justify-center>
-            <div class="headline white--text mb-3 text-xs-center">Web development has never been easier</div>
-            <em>Kick-start your application today</em>
+            <div class="headline white--text mb-3 text-xs-center">Um Website baseado no seu pensamento!</div>
+            <em>Clique aqui e participe agora</em>
             <v-btn
-              class="blue lighten-2 mt-5"
+              class="white-2 mt-5"
               dark
               large
               href="/pre-made-themes"
             >
-              Get Started
+            Cadastre-se
             </v-btn>
           </v-layout>
         </v-parallax>
@@ -113,30 +107,26 @@
             <v-flex xs12 sm4>
               <v-card class="elevation-0 transparent">
                 <v-card-title primary-title class="layout justify-center">
-                  <div class="headline">Company info</div>
+                  <div class="headline">Sobre</div>
                 </v-card-title>
                 <v-card-text>
-                  Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
-                  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                  Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti. 
+                  Uma produção de alunas do 3ºTIB do Curso Técnico em informática integrado ao ensino médio da escola Estadual Waldemir Barros da Silva como trabalho de conclusão de curso proposto por professores da área.  
                 </v-card-text>
               </v-card>
             </v-flex>
             <v-flex xs12 sm4 offset-sm1>
               <v-card class="elevation-0 transparent">
                 <v-card-title primary-title class="layout justify-center">
-                  <div class="headline">Contact us</div>
+                  <div class="headline">Contato</div>
                 </v-card-title>
-                <v-card-text>
-                  Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                </v-card-text>
+               
                 <v-list class="transparent">
                   <v-list-tile>
                     <v-list-tile-action>
                       <v-icon class="blue--text text--lighten-2">phone</v-icon>
                     </v-list-tile-action>
                     <v-list-tile-content>
-                      <v-list-tile-title>777-867-5309</v-list-tile-title>
+                      <v-list-tile-title>3314-9014 - Escola</v-list-tile-title>
                     </v-list-tile-content>
                   </v-list-tile>
                   <v-list-tile>
@@ -144,7 +134,7 @@
                       <v-icon class="blue--text text--lighten-2">place</v-icon>
                     </v-list-tile-action>
                     <v-list-tile-content>
-                      <v-list-tile-title>Chicago, US</v-list-tile-title>
+                      <v-list-tile-title>Rua Palmacia S/N</v-list-tile-title>
                     </v-list-tile-content>
                   </v-list-tile>
                   <v-list-tile>
@@ -152,7 +142,7 @@
                       <v-icon class="blue--text text--lighten-2">email</v-icon>
                     </v-list-tile-action>
                     <v-list-tile-content>
-                      <v-list-tile-title>john@vuetifyjs.com</v-list-tile-title>
+                      <v-list-tile-title>Marcelofigterenciani@gmail.com</v-list-tile-title>
                     </v-list-tile-content>
                   </v-list-tile>
                 </v-list>
