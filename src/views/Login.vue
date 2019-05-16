@@ -17,6 +17,7 @@
               <v-text-field
                 v-model="email"
                 :error-messages="senhaErrors"
+                type="password"
                 label="Senha"
                 required
                 @input="$v.senha.$touch()"
