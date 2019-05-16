@@ -17,7 +17,7 @@
           fill-height
         >
           <form>
-           <v-layout align-center justify-center>
+           <v-layout align-center>
               <v-btn @click="submit" to="/login">Entrar</v-btn>
               </v-layout>
           </form>
@@ -48,7 +48,7 @@
                       <div class="headline text-xs-center">Design</div>
                     </v-card-title>
                     <v-card-text>
-                     Optamos por um layout dinâmico, moderno e fácil para que todos os usuarios possam compreender e utilizar sem dificuldade nosso recurso.s
+                     Optamos por um layout dinâmico, moderno e fácil para que todos os usuarios possam compreender e utilizar sem dificuldade nosso recurso.
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -89,13 +89,9 @@
           <v-layout column align-center justify-center>
             <div class="headline white--text mb-3 text-xs-center">Um Website baseado no seu pensamento!</div>
             <em>Clique aqui e participe agora</em>
-            <v-btn
-              class="white-2 mt-5"
-              dark
-              large
-              href="/pre-made-themes"
-            >
-            Cadastre-se
+            <v-btn  dark @click="submit" to="/Cadastro">Cadastre-se 
+          
+            
             </v-btn>
           </v-layout>
         </v-parallax>
