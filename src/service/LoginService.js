@@ -1,12 +1,11 @@
 export default class LoginService{
     static logar(email, senha){
-        // Ir no servidor e validar login e senha 
-        if(email== "terenciani@outlook.com" && senha==123)
+        // Ir No servidor e valiar o login e a senha
+        if(email == "caroljackhayunne123" && senha=='123'){
             return true
-         }else{
-             return false
-         }
-
+        }else{
+            return false
+        }
     }
     static recuperarSenha(email){
 

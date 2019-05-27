@@ -27,29 +27,19 @@
 
               <v-text-field
                 v-model="email"
-                :error-messages="emailErrors"
                 label="E-mail"
-                required
-                @input="$v.email.$touch()"
-                @blur="$v.email.$touch()"
+              
               ></v-text-field>
 
               <v-text-field
                 v-model="email"
-                :error-messages="senhaErrors"
                 label="Senha"
-                required
-                @input="$v.senha.$touch()"
-                @blur="$v.senha.$touch()"
+            
               ></v-text-field>
 
               <v-text-field
                 v-model="email"
-                :error-messages="senhaErrors"
                 label="Confirmar Senha"
-                required
-                @input="$v.senha.$touch()"
-                @blur="$v.senha.$touch()"
               ></v-text-field>
 
                 
