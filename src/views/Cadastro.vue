@@ -67,6 +67,7 @@
       <style> 
       .cadastro {
         height: 100%;
+        width: 100%;
         background-image: url("https://www.wallpapermaiden.com/wallpaper/9881/download/1366x768/firewatch-forest-artwork.jpg");
       }
       

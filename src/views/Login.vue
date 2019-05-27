@@ -34,8 +34,29 @@
 
 </template>
   <script> 
-   </script>
-      <style> 
+   
+     import LoginService from 'service/LoginService.
+       export default {
+          data (){
+            return 
+             alert: false,
+             cor: "",
+             email: "",
+             mensagem: "",
+             senha: "",
+         }
+        
+      
+        },
+        methods:{
+          realizarLogin (){
+            let retorno = LoginService .logar (this.email, this.senha)
+            if ()
+          }
+        }
+
+    </script>
+<style> 
       .login {
         height: 100%;
         background-image: url("https://c4.wallpaperflare.com/wallpaper/8/169/216/firewatch-digital-art-birds-forest-wallpaper-7960c8edb12add9b76a7786fa001a6dd.jpg");
@@ -43,4 +64,4 @@
       
       
       
-      </style>
+ </style>
