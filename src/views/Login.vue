@@ -43,7 +43,8 @@ import LoginService from '../service/LoginService.js'
         },
         methods:{
             realizarLogin(){
-                let retorno = LoginService.logar(this.email, this.senha)
+                let retorno = Logi
+                nService.logar(this.email, this.senha)
                 if(retorno == true){
                     this.cor        = "success"
                     this.mensagem   = "Login realizado com sucesso!"
