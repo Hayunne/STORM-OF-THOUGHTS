@@ -1,5 +1,105 @@
 <template>
-  <v-layout row wrap>
+<v-app>
+    <v-toolbar class="grey darken-3" dark  temporary>
+  		<v-toolbar-side-icon 
+  			@click="mostra = true"
+  			color="white--text"
+  		></v-toolbar-side-icon>
+      <v-list-tile-title class="ml-3">
+  				STORM OF THOUGHTS
+  				</v-list-tile-title>
+  	
+  	
+  	</v-toolbar>
+  	<v-navigation-drawer 
+		class="grey darken-3"
+		dark
+		absolute
+  		v-model="mostra"
+      temporary
+  	>
+  		<v-toolbar 
+  			class="grey darken-4"
+  		>
+  			<v-list>
+  				<v-list-tile-title class="ml-3">
+  			MAIS AUTORES
+  				</v-list-tile-title>
+  			</v-list>
+  		</v-toolbar>
+  		<v-divider></v-divider>
+  		<v-list dense class="pt-0">
+  			<v-list-tile to="/John Green">
+  				<v-list-tile-action>
+		        	<v-icon>flash_on</v-icon>
+		        </v-list-tile-action>
+		        <v-list-tile-content>
+		          	<v-list-tile-title>John Green</v-list-tile-title>
+		        </v-list-tile-content>
+  			</v-list-tile>
+  			<v-list-tile to="/Clarice Lispector">
+  				<v-list-tile-action>
+		        	<v-icon>flash_on</v-icon>
+		        </v-list-tile-action>
+		        <v-list-tile-content>
+		          	<v-list-tile-title>Clarice Lispector</v-list-tile-title>
+		        </v-list-tile-content>
+  			</v-list-tile>
+  			<v-list-tile to="/Charles Bukowski">
+  				<v-list-tile-action>
+		        	<v-icon>flash_on</v-icon>
+		        </v-list-tile-action>
+		        <v-list-tile-content>
+		          	<v-list-tile-title>Charles Bukowski</v-list-tile-title>
+		        </v-list-tile-content>
+  			</v-list-tile>
+  			<v-list-tile to="/Machado de Assis">
+  				<v-list-tile-action>
+		        	<v-icon>flash_on</v-icon>
+		        </v-list-tile-action>
+		        <v-list-tile-content>
+		          	<v-list-tile-title>Machado de Assis</v-list-tile-title>
+		        </v-list-tile-content>
+  			</v-list-tile>
+        	<v-list-tile to="/Immanuel Kant">
+  				<v-list-tile-action>
+		        	<v-icon>flash_on</v-icon>
+		        </v-list-tile-action>
+		        <v-list-tile-content>
+		          	<v-list-tile-title>Immanuel Kant</v-list-tile-title>
+		        </v-list-tile-content>
+  			</v-list-tile>
+        	<v-list-tile to="/Fernando Pessoa">
+  				<v-list-tile-action>
+		        	<v-icon>flash_on</v-icon>
+		        </v-list-tile-action>
+		        <v-list-tile-content>
+		          	<v-list-tile-title>Fernando Pessoa</v-list-tile-title>
+		        </v-list-tile-content>
+            	<v-list-tile to="/Chico Xavier">
+  				<v-list-tile-action>
+		        	<v-icon>flash_on</v-icon>
+		        </v-list-tile-action>
+		        <v-list-tile-content>
+		          	<v-list-tile-title>Chico Xavier</v-list-tile-title>
+		        </v-list-tile-content>
+  			</v-list-tile>
+        	<v-list-tile to="/Stranger Things">
+  				<v-list-tile-action>
+		        	<v-icon>movie_filter</v-icon>
+		        </v-list-tile-action>
+		        <v-list-tile-content>
+		          	<v-list-tile-title>Stranger Things</v-list-tile-title>
+		        </v-list-tile-content>
+  			</v-list-tile>
+  			</v-list-tile>
+  		</v-list>
+  	</v-navigation-drawer>
+    <v-content>
+      <router-view></router-view>
+    </v-content>
+ 
+    <v-layout row wrap>
     <v-flex xs12 sm6 md4 lg3 v-for="frase in frases" :key="frase.texto" pa-2>
       <v-card
         class="mx-auto"
@@ -38,6 +138,7 @@
       </v-card>
     </v-flex>
   </v-layout>
+   </v-app>
 </template>
 <script>
 export default {
@@ -76,24 +177,26 @@ export default {
         },
         {
           texto: "Nem todo mundo que chega na sua vida, vem com a intenção de ficar. Da mesma forma, que nem todos os que se foram, queriam partir. -A Culpa é das Estrelas",
-          cor:"#2EFE64",
+          cor:"#81BEF7",
           imagem: "http://leitorcompulsivo.com.br/wp-content/uploads/2018/06/johngreen.jpg",
           autor: "John Green",
         },
         {
-          texto: "Que tempos difíceis eram aqueles: ter a vontade e a necessidade de viver, mas não a habilidade. -Charles Bukowski",
-          cor:"#5858FA",
-          imagem: "https://citacoes.in/media/authors/charles-bukowski.jpg",
-          autor: "Charles Bukowski",
+          texto: "Acho que prefiro observar as pessoas do que falar com elas. -Stranger Things",
+          cor:"#F5A9A9",
+          imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuTsxzR_-lXZMBRU90CS1XB3qaKHDE72Zosn_olmcavXlo-CHO",
+          autor: "Stranger Things",
         },
         {
-          texto: "Que tempos difíceis eram aqueles: ter a vontade e a necessidade de viver, mas não a habilidade. -Charles Bukowski",
-          cor:"#5858FA",
-          imagem: "https://citacoes.in/media/authors/charles-bukowski.jpg",
-          autor: "Charles Bukowski",
+          texto: "Não exijas dos outros qualidades que ainda não possuem. -Chico Xavier",
+          cor:"#F5DA81",
+          imagem: "https://upload.wikimedia.org/wikipedia/pt/thumb/d/df/Chico-Xavier-1980.jpg/300px-Chico-Xavier-1980.jpg",
+          autor: "Chico Xavier",
         }
-      ]
+      ],
+      mostra: false 
     }
   }
 }
 </script>
+
