@@ -4,6 +4,7 @@ import Login from './views/Login.vue'
 import Frases from './views/Frases.vue'
 import Home from './views/Home.vue'
 import Cadastro from './views/Cadastro.vue'
+import atividade from './views/atividade.vue'
 
 
 Vue.use(Router)
@@ -28,7 +29,10 @@ export default new Router({
     { path: '/Cadastro',
       name: 'Cadastro',
       component: Cadastro
-    }
-
+    },
+    { path: '/atividade',
+    name: 'atividade',
+    component: atividade
+  },
   ]
 })

@@ -68,7 +68,7 @@
 		        <v-list-tile-content>
 		          	<v-list-tile-title>Immanuel Kant</v-list-tile-title>
 		        </v-list-tile-content>
-  			</v-list-tile>
+        </v-list-tile>
         	<v-list-tile to="/Fernando Pessoa">
   				<v-list-tile-action>
 		        	<v-icon>flash_on</v-icon>
@@ -76,12 +76,13 @@
 		        <v-list-tile-content>
 		          	<v-list-tile-title>Fernando Pessoa</v-list-tile-title>
 		        </v-list-tile-content>
-            	<v-list-tile to="/Chico Xavier">
+        </v-list-tile>
+        <v-list-tile to="/atividade">
   				<v-list-tile-action>
 		        	<v-icon>flash_on</v-icon>
 		        </v-list-tile-action>
 		        <v-list-tile-content>
-		          	<v-list-tile-title>Chico Xavier</v-list-tile-title>
+		          	<v-list-tile-title>atividade</v-list-tile-title>
 		        </v-list-tile-content>
   			</v-list-tile>
         	<v-list-tile to="/Stranger Things">
