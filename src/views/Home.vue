@@ -144,6 +144,9 @@
                 </v-list>
               </v-card>
             </v-flex>
+            <v-layout align-center>
+              <v-btn @click="submit" to="/atividade">Atividade</v-btn>
+              </v-layout>
           </v-layout>
         </v-container>
       </section>

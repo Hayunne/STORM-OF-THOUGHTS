@@ -77,14 +77,6 @@
 		          	<v-list-tile-title>Fernando Pessoa</v-list-tile-title>
 		        </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile to="/atividade">
-  				<v-list-tile-action>
-		        	<v-icon>flash_on</v-icon>
-		        </v-list-tile-action>
-		        <v-list-tile-content>
-		          	<v-list-tile-title>atividade</v-list-tile-title>
-		        </v-list-tile-content>
-  			</v-list-tile>
         	<v-list-tile to="/Stranger Things">
   				<v-list-tile-action>
 		        	<v-icon>movie_filter</v-icon>
