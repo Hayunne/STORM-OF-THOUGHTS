@@ -139,53 +139,78 @@ export default {
     return {
       frases: [
         {
-          texto: "Amo como ama o amor. Não conheço nenhuma outra razão para amar senão amar. Que queres que te diga, além de que te amo, se o que quero dizer-te é que te amo? -Fernando Pessoa",
-          cor:"#F37C7C",
-          imagem: "https://www.escritas.org/autores/fernando-pessoa.jpg",
-          autor: "Fernando Pessoa",
-        },
-        {
-          texto: "Renda-se, como eu me rendi. Mergulhe no que você não conhece como eu mergulhei. Não se preocupe em entender, viver ultrapassa qualquer entendimento. -Clarice Lispector",
-          cor:"#71CFDA",
-          imagem: "http://s2.glbimg.com/Z7Cc54KP46lhOXHVPFI0FEKMdKw=/e.glbimg.com/og/ed/f/original/2016/07/29/ritaelmor.jpg",
-          autor: "Clarice Lispector",
-        },
-        {
-          texto: "O ser humano é aquilo que a educação faz dele. -Immanuel Kant.",
-          cor:"#F6CEF5",
-          imagem: "http://2.bp.blogspot.com/-g_5CWX49jjE/UO2srW_rWaI/AAAAAAAAAGQ/4ykiAh8QNFM/s1600/Kant_Portrait.jpg",
-          autor: "Immanuel Kant",
-        },
-        {
-          texto: "Que tempos difíceis eram aqueles: ter a vontade e a necessidade de viver, mas não a habilidade. -Charles Bukowski",
-          cor:"#5858FA",
-          imagem: "https://citacoes.in/media/authors/charles-bukowski.jpg",
-          autor: "Charles Bukowski",
-        },
-        {
-          texto: "Esquecer é uma necessidade. A vida é uma lousa, em que o destino, para escrever um novo caso, precisa de apagar o caso escrito. -Machado de Assis",
-          cor:"#0489B1",
-          imagem: "https://www.sohistoria.com.br/biografias/machado/index_clip_image002.jpg",
-          autor: "Machado de Assis",
-        },
-        {
-          texto: "Nem todo mundo que chega na sua vida, vem com a intenção de ficar. Da mesma forma, que nem todos os que se foram, queriam partir. -A Culpa é das Estrelas",
-          cor:"#81BEF7",
+          texto: "Tentar se afastar de mim, não vai fazer diminuir o que eu sinto por você. -John Green (A Culpa é das Estrelas)",
+          cor:"#A9F5F2",
           imagem: "http://leitorcompulsivo.com.br/wp-content/uploads/2018/06/johngreen.jpg",
           autor: "John Green",
         },
         {
-          texto: "Acho que prefiro observar as pessoas do que falar com elas. -Stranger Things",
-          cor:"#F5A9A9",
-          imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuTsxzR_-lXZMBRU90CS1XB3qaKHDE72Zosn_olmcavXlo-CHO",
-          autor: "Stranger Things",
+          texto: "Só lembre-se de que, às vezes, o que você pensa de uma pessoa, não é o que ela realmente é. -John Green",
+          cor:"#81F7F3",
+          imagem: "http://leitorcompulsivo.com.br/wp-content/uploads/2018/06/johngreen.jpg",
+          autor: "John Green",
         },
         {
-          texto: "Não exijas dos outros qualidades que ainda não possuem. -Chico Xavier",
-          cor:"#F5DA81",
-          imagem: "https://upload.wikimedia.org/wikipedia/pt/thumb/d/df/Chico-Xavier-1980.jpg/300px-Chico-Xavier-1980.jpg",
-          autor: "Chico Xavier",
-        }
+          texto: "Se as pessoas fossem chuva, eu era garoa e ela um furacão. -John Green (Quem é você, Alasca?) ",
+          cor:"#58FAF4",
+          imagem: "http://leitorcompulsivo.com.br/wp-content/uploads/2018/06/johngreen.jpg",
+          autor: "John Green",
+        },
+         {
+          texto: "Estou a divagar, mas eis a falha: os mortos são visíveis apenas através do terrível olho vigilante da memória. Os vivos, graças aos céus, mantém a capacidade de surpreender e decepcionar. -John Green ",
+          cor:"#2EFEF7",
+          imagem: "http://leitorcompulsivo.com.br/wp-content/uploads/2018/06/johngreen.jpg",
+          autor: "John Green",
+        },
+         {
+          texto: "Não sei com o que eu me pareço, mas sei como me sinto: Jovem. Estúpido. Infinito. -John Green(Quentin Jacobsen - Cidades de Papel)  ",
+          cor:"#01DFD7",
+          imagem: "http://leitorcompulsivo.com.br/wp-content/uploads/2018/06/johngreen.jpg",
+          autor: "John Green",
+        },
+        {
+          texto: "O para sempre é composto de agoras. -John Green (Margo Roth Spiegelman - Cidades de Papel)  ",
+          cor:"#04B4AE",
+          imagem: "http://leitorcompulsivo.com.br/wp-content/uploads/2018/06/johngreen.jpg",
+          autor: "John Green",
+        },
+        {
+          texto: "Eu sei que amor é um grito no vazio e o esquecimento é inevitável. -John Green (A Culpa É das Estrelas) ",
+          cor:"#088A85",
+          imagem: "http://leitorcompulsivo.com.br/wp-content/uploads/2018/06/johngreen.jpg",
+          autor: "John Green",
+        },
+        {
+          texto: "A única maneira de sair do labirinto de sofrimento é a perdoar. -John Green ",
+          cor:"#0B615E",
+          imagem: "http://leitorcompulsivo.com.br/wp-content/uploads/2018/06/johngreen.jpg",
+          autor: "John Green",
+        },
+        {
+          texto: "Algumas pessoas têm vidas, algumas pessoas têm a música. -John Green (Will e Will - Um Nome, Um Destino)",
+          cor:"#0B3B39",
+          imagem: "http://leitorcompulsivo.com.br/wp-content/uploads/2018/06/johngreen.jpg",
+          autor: "John Green",
+        },
+        {
+          texto: "Você gosta de alguém que não pode retribuir o seu amor porque é possível sobreviver ao amor não correspondido de uma forma impossível no caso do amor uma vez correspondido. -John Green",
+          cor:"#0A2A29",
+          imagem: "http://leitorcompulsivo.com.br/wp-content/uploads/2018/06/johngreen.jpg",
+          autor: "John Green",
+        },
+        {
+          texto: "Às vezes, você lê um livro e ele te preenche com este zelo evangélico estranho, e você se convence de que o mundo estilhaçado nunca será reconstruído a menos que todos os seres humanos leiam esse livro. -John Green",
+          cor:"#071918",
+          imagem: "http://leitorcompulsivo.com.br/wp-content/uploads/2018/06/johngreen.jpg",
+          autor: "John Green",
+        },
+         {
+          texto: "O verdadeiro amor triunfará no final - o que pode ou não ser uma mentira, mas se for mentira, então é a mais bela mentira que temos. -John Green",
+          cor:"#071418",
+          imagem: "http://leitorcompulsivo.com.br/wp-content/uploads/2018/06/johngreen.jpg",
+          autor: "John Green",
+        },
+        
       ],
       mostra: false 
     }
