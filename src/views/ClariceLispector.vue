@@ -151,7 +151,7 @@ export default {
           autor: "Clarice Lispector",
         },
          {
-          texto: "Porque eu fazia do amor um cálculo matemático errado: pensava que, somando as compreensões, eu amava. Não sabia que, somando as incompreensões é que se ama verdadeiramente. -Clarice Lispector",
+          texto: "Liberdade é pouco. O que eu desejo ainda não tem nome. -Clarice Lispector",
           cor:"#FA5882",
           imagem: "http://s2.glbimg.com/Z7Cc54KP46lhOXHVPFI0FEKMdKw=/e.glbimg.com/og/ed/f/original/2016/07/29/ritaelmor.jpg",
           autor: "Clarice Lispector",
@@ -174,7 +174,42 @@ export default {
           imagem: "http://s2.glbimg.com/Z7Cc54KP46lhOXHVPFI0FEKMdKw=/e.glbimg.com/og/ed/f/original/2016/07/29/ritaelmor.jpg",
           autor: "Clarice Lispector",
         },
-        
+        {
+          texto: "Às vezes me dá enjôo de gente. Depois passa e fico de novo toda curiosa e atenta. E é só. -Clarice Lispector",
+          cor:"#B40431",
+          imagem: "http://s2.glbimg.com/Z7Cc54KP46lhOXHVPFI0FEKMdKw=/e.glbimg.com/og/ed/f/original/2016/07/29/ritaelmor.jpg",
+          autor: "Clarice Lispector",
+        },
+         {
+          texto: "Às vezes me dá enjôo de gente. Depois passa e fico de novo toda curiosa e atenta. E é só. -Clarice Lispector",
+          cor:"#8A0829",
+          imagem: "http://s2.glbimg.com/Z7Cc54KP46lhOXHVPFI0FEKMdKw=/e.glbimg.com/og/ed/f/original/2016/07/29/ritaelmor.jpg",
+          autor: "Clarice Lispector",
+        },
+        {
+          texto: "Às vezes me dá enjôo de gente. Depois passa e fico de novo toda curiosa e atenta. E é só. -Clarice Lispector",
+          cor:"#610B21",
+          imagem: "http://s2.glbimg.com/Z7Cc54KP46lhOXHVPFI0FEKMdKw=/e.glbimg.com/og/ed/f/original/2016/07/29/ritaelmor.jpg",
+          autor: "Clarice Lispector",
+        },
+        {
+          texto: "Às vezes me dá enjôo de gente. Depois passa e fico de novo toda curiosa e atenta. E é só. -Clarice Lispector",
+          cor:"#3B0B17",
+          imagem: "http://s2.glbimg.com/Z7Cc54KP46lhOXHVPFI0FEKMdKw=/e.glbimg.com/og/ed/f/original/2016/07/29/ritaelmor.jpg",
+          autor: "Clarice Lispector",
+        },
+        {
+          texto: "Às vezes me dá enjôo de gente. Depois passa e fico de novo toda curiosa e atenta. E é só. -Clarice Lispector",
+          cor:"#2A0A12",
+          imagem: "http://s2.glbimg.com/Z7Cc54KP46lhOXHVPFI0FEKMdKw=/e.glbimg.com/og/ed/f/original/2016/07/29/ritaelmor.jpg",
+          autor: "Clarice Lispector",
+        },
+        {
+          texto: "Às vezes me dá enjôo de gente. Depois passa e fico de novo toda curiosa e atenta. E é só. -Clarice Lispector",
+          cor:"#19070B",
+          imagem: "http://s2.glbimg.com/Z7Cc54KP46lhOXHVPFI0FEKMdKw=/e.glbimg.com/og/ed/f/original/2016/07/29/ritaelmor.jpg",
+          autor: "Clarice Lispector",
+        },
       ],
       mostra: false 
     }
