@@ -104,7 +104,7 @@
           <v-icon large left>cloud</v-icon>
           <span class="title font-weight-light">STORM OF THOUGHTS</span>
         </v-card-title>
-        <v-card-text class="headline font-weight-bold" style="height: 250px">
+        <v-card-text class="headline font-weight-bold " style="height: 250px">
           "{{frase.texto}}"
         </v-card-text>
         <v-card-actions>
