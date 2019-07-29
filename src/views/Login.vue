@@ -42,23 +42,27 @@ import LoginService from '../service/LoginService.js'
             }
         },
         methods:{
-            realizarLogin(){
-                let retorno = Logi
-                nService.logar(this.email, this.senha)
-                if(retorno == true){
-                    this.cor        = "success"
-                    this.mensagem   = "Login realizado com sucesso!"
-                    this.alert      = true
+             realizarLogin(){
+                
+                if(this.email == "terenciani@gmail.com" && this.senha=='123'){
+                    this.mensagem = "Login autorizado"
+                    this.cor = "success"
+                    this.alert = true
                 }else{
-                    this.cor        = "error"
-                    this.mensagem   = "Erro ao realizar o login!"
-                    this.alert      = true
+                    this.mensagem = "Não esta autorizado"
+                    this.cor = "error"
+                    this.alert = true
                 }
             }
         }
-    } 
+    }
+            
+        
+   
+    
 
 </script>
+
 <style> 
   .login {
     height: 100%;

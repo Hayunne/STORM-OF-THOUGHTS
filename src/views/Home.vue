@@ -5,7 +5,7 @@
       <v-parallax
         dark
         height="600"
-        src="https://i.pinimg.com/originals/0e/6d/66/0e6d666c365e94283f2cbe7bd063f8e1.png"
+        src="https://cdna.artstation.com/p/assets/images/images/003/889/426/large/alex-ghostis-5shadeart2.jpg?1478259165"
         
         
       >
