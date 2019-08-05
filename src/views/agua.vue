@@ -4,32 +4,14 @@
       <section>
         <v-parallax
           dark
-          height="600"
-          src="https://cdna.artstation.com/p/assets/images/images/003/889/426/large/alex-ghostis-5shadeart2.jpg?1478259165"
-          
-          
-        >
-        <h1 class="red--text text--lighten-2 text-xs-center display-4 font-weight-black mt-5">STORM OF THOUGHTS</h1>
-         <v-layout
-            align-center
-            column
-            justify-center
-            fill-height
-          >
-            <form>
-             <v-layout align-center>
-                <v-btn @click="submit" to="/login">Entrar</v-btn>
-                </v-layout>
-            </form>
+          height="550"
+          src="https://coworkingbrasil.org/wp-content/uploads/2016/10/thumb-beber-agua.jpg"
         
+        >
             </v-layout>
         </v-parallax>
-     
-      
-    
-    
       </section>
-      <section>
+    
         <v-layout>
             <v-flex align-center="my-3">
               <div class="text-xs-center">
@@ -40,41 +22,20 @@
               <v-container grid-list-xl>
                 <v-layout row wrap align-center>
                   <v-flex xs12 md4>
-                    <v-card class="elevation-0 transparent">
-                      <v-card-text class="text-xs-center">
-                        <v-icon x-large class="blue--text text--lighten-2">color_lens</v-icon>
-                      </v-card-text>
-                      <v-card-title primary-title class="layout justify-center">
-                        <div class="headline text-xs-center">Design</div>
-                      </v-card-title>
                       <v-card-text>
-                       Optamos por um layout dinâmico, moderno e fácil para que todos os usuarios possam compreender e utilizar sem dificuldade nosso recurso.
+                     Cerca de 71% da superfície do planeta é coberta de água, sendo que os oceanos representam 97% do total disponível. Isso significa que apenas 3% do líquido presente no mundo consiste em água doce. Da água doce disponível na Terra, 69% se encontram congelados em glaciares ou gelo e 30%, em aquíferos.
                       </v-card-text>
                     </v-card>
                   </v-flex>
                   <v-flex xs12 md4>
-                    <v-card class="elevation-0 transparent">
-                      <v-card-text class="text-xs-center">
-                        <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
-                      </v-card-text>
-                      <v-card-title primary-title class="layout justify-center">
-                        <div class="headline">Storm Of Thoughts</div>
-                      </v-card-title>
                       <v-card-text>
-                        O nome Storm Of Thoughts em português "Tempestade de pensamentos", surgiu em conjuto com a ideia geral do site como uma forma de conectar a Literatura-Filmes, Séries, Músicas e Frases- em um unico ambiente utilizando da tecnologia tendo em vista que após analises compreendemos um grande interesse dos usuários por estes assuntos por meio desta plataforma.
+                       Desse montante, 263 milhões de pessoas são obrigadas a se deslocar por, pelo menos, 30 minutos para poder coletar água. Além disso, 159 milhões de pessoas no mundo consomem água não tratada — o que pode oferecer sérios riscos à saúde —, obtida a partir de riachos ou lagos.
                       </v-card-text>
                     </v-card>
                   </v-flex>
                   <v-flex xs12 md4>
-                    <v-card class="elevation-0 transparent">
-                      <v-card-text class="text-xs-center">
-                        <v-icon x-large class="blue--text text--lighten-2">build</v-icon>
-                      </v-card-text>
-                      <v-card-title primary-title class="layout justify-center">
-                        <div class="headline text-xs-center">Recursos</div>
-                      </v-card-title>
                       <v-card-text>
-                       A arquitetura do site foi criada com base em Frameworks encontrados na plataforma Vue e Vuetify sendo programado no software Visual Code Studio e contou com o auxilio de profissionais da área de programação, já que foi criado por iniciantes.
+                       Mais de 80% da água usada pela sociedade volta para o meio ambiente antes de ser tratada e sem que ela seja reutilizada de alguma forma. A cada hora, 66 crianças morrem no mundo em consequência de problemas de saúde relacionados ao consumo de água contaminada.
                       </v-card-text>
                     </v-card>
                   </v-flex>
@@ -85,71 +46,42 @@
         </section>
   
         <section>
-          <v-parallax src="http://www.mariacenoura.pt/ptpictures/f/135/1359069_firewatch-wallpaper-1920x1080.png" height="600">
-            <v-layout column align-center justify-center>
-              <div class="headline white--text mb-3 text-xs-center">Um Website baseado no seu pensamento!</div>
-              <em>Clique aqui e participe agora</em>
-              <v-btn  dark @click="submit" to="/Cadastro">Cadastre-se 
-            
-              
-              </v-btn>
-            </v-layout>
+          <v-parallax src="http://www.resa.org.br/imagens/noticia/2015/03/aguacorredeira_original.jpg" height="600">
+          <v-layout column align-center justify-center>
+            <div class="blue--text display-2 font-weight-black mt-1" > Fatos sobre a crise da água que vão fazer você repensar seus hábitos</div>
+          </v-layout>
           </v-parallax>
         </section>
   
-        <section>
-          <v-container grid-list-xl>
-            <v-layout row wrap justify-center class="my-5">
-              <v-flex xs12 sm4>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <div class="headline">Sobre</div>
-                  </v-card-title>
-                  <v-card-text>
-                    Uma produção de alunas do 3ºTIB do Curso Técnico em informática integrado ao ensino médio da escola Estadual Waldemir Barros da Silva como trabalho de conclusão de curso proposto por professores da área.  
-                  </v-card-text>
-                </v-card>
-              </v-flex>
-              <v-flex xs12 sm4 offset-sm1>
-                <v-card class="elevation-0 transparent">
-                  <v-card-title primary-title class="layout justify-center">
-                    <div class="headline">Contato</div>
-                  </v-card-title>
-                 
-                  <v-list class="transparent">
-                    <v-list-tile>
-                      <v-list-tile-action>
-                        <v-icon class="blue--text text--lighten-2">phone</v-icon>
-                      </v-list-tile-action>
-                      <v-list-tile-content>
-                        <v-list-tile-title>3314-9014 - Escola</v-list-tile-title>
-                      </v-list-tile-content>
-                    </v-list-tile>
-                    <v-list-tile>
-                      <v-list-tile-action>
-                        <v-icon class="blue--text text--lighten-2">place</v-icon>
-                      </v-list-tile-action>
-                      <v-list-tile-content>
-                        <v-list-tile-title>Rua Palmacia S/N</v-list-tile-title>
-                      </v-list-tile-content>
-                    </v-list-tile>
-                    <v-list-tile>
-                      <v-list-tile-action>
-                        <v-icon class="blue--text text--lighten-2">email</v-icon>
-                      </v-list-tile-action>
-                      <v-list-tile-content>
-                        <v-list-tile-title>Marcelofigterenciani@gmail.com</v-list-tile-title>
-                      </v-list-tile-content>
-                    </v-list-tile>
-                  </v-list>
-                </v-card>
-              </v-flex>
-              <v-layout align-center>
-                
+         <v-flex xs12>
+              <v-container grid-list-xl>
+                <v-layout row wrap align-center>
+                  <v-flex xs12 md4>
+                      <v-card-text>
+                   Mais pessoas morrem no mundo devido a complicações associadas ao consumo de água contaminada do que como vítimas da violência ou de guerras. Em países subdesenvolvidos, até 80% das doenças estão relacionadas com a falta de saneamento básico e o acesso à água potável.
+
+
+                      </v-card-text>
+                    </v-card>
+                  </v-flex>
+                  <v-flex xs12 md4>
+                      <v-card-text>
+                       Doenças transmitidas através do consumo de água contaminada matam mais crianças com menos de 5 anos de idade no mundo do que a malária, o sarampo e o HIV/Aids — juntos. Apenas 1 minuto de ducha — em um chuveiro convencional mesmo — consome mais água do que a maiorias das pessoas que vivem na África-Subsaariana usam durante todo um dia para beber e para a higiene pessoal.
+                      </v-card-text>
+                    </v-card>
+                  </v-flex>
+                  <v-flex xs12 md4>
+                      <v-card-text>
+                        Estima-se que, até 2050, a população mundial deve crescer em aproximadamente 2 bilhões de pessoas, aumento que deve representar um incremento na ordem de 30% na demanda de água. Atualmente, a agricultura usa por volta de 70% da água no mundo, principalmente para fins de irrigação, enquanto a indústria emprega cerca de 20% do total. Os restantes 10% são consumidos para o uso doméstico — com menos de 1% disso sendo utilizado para o consumo humano. Cerca de 1,8 bilhão de pessoas sofrem as consequências pela degradação do e a desertificação do meio ambiente — e pelo menos 65% da superfície vegetada do planeta se encontra degradada de alguma forma.
+                      </v-card-text>
+                    </v-card>
+                  </v-flex>
                 </v-layout>
-            </v-layout>
-          </v-container>
+              </v-container>
+            </v-flex>
+        </v-layout>
         </section>
+  
     </div>
   
     
