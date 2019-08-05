@@ -11,6 +11,8 @@ import Machado from './views/MachadodeAssis.vue'
 import Immanuel from './views/ImmanuelKant.vue'
 import Fernando from './views/FernandoPessoa.vue'
 import Stranger from './views/StrangerThings.vue'
+import agua from './views/agua.vue'
+
 
 
 Vue.use(Router)
@@ -64,5 +66,10 @@ export default new Router({
     name: 'StrangerThings',
     component: Stranger
    },
+   {
+    path: '/agua',
+    name: 'agua',
+    component: agua
+  },
   ]
 })
