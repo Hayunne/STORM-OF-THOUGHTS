@@ -93,7 +93,7 @@
     </v-content>
  
     <v-layout row wrap>
-    <v-flex xs12 sm6 md4 lg3 v-for="frase in frases" :key="frase.texto" pa-2>
+    <v-flex xs12 sm4 md2 lg1 v-for="frase in frases" :key="frase.texto" pa-2>
       <v-card
         class="mx-auto"
         :color="frase.cor"
@@ -210,10 +210,5 @@ export default {
           imagem: "http://s2.glbimg.com/Z7Cc54KP46lhOXHVPFI0FEKMdKw=/e.glbimg.com/og/ed/f/original/2016/07/29/ritaelmor.jpg",
           autor: "Clarice Lispector",
         },
-      ],
-      mostra: false 
-    }
-  }
-}
-</script>
+     
 
