@@ -93,7 +93,7 @@
     </v-content>
  
     <v-layout row wrap>
-    <v-flex xs12 sm4 md3 lg2 v-for="frase in frases" :key="frase.texto" pa-2>
+    <v-flex xs12 sm8 md6 lg4 v-for="frase in frases" :key="frase.texto" pa-2>
       <v-card
         class="mx-auto"
         :color="frase.cor"
