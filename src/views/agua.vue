@@ -48,7 +48,7 @@
         <section>
           <v-parallax src="http://www.resa.org.br/imagens/noticia/2015/03/aguacorredeira_original.jpg" height="600">
           <v-layout column align-center justify-center>
-            <div class="blue--text display-2 font-weight-black mt-1" > Fatos sobre a crise da água que vão fazer você repensar seus hábitos</div>
+            <div class= "blue--text font-weight-black mt-1" > Fatos sobre a água que vão fazer você repensar seus hábitos</div>
           </v-layout>
           </v-parallax>
         </section>
