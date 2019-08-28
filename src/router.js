@@ -12,6 +12,7 @@ import Immanuel from './views/ImmanuelKant.vue'
 import Fernando from './views/FernandoPessoa.vue'
 import Stranger from './views/StrangerThings.vue'
 import agua from './views/agua.vue'
+import Reasons Why from './view/ReasonsWhy' 
 
 
 
@@ -70,6 +71,11 @@ export default new Router({
     path: '/agua',
     name: 'agua',
     component: agua
+  },
+  {
+    path: '/13 Reasons Why',
+    name: '13 Reasons Why',
+    component: Reasons Why
   },
   ]
 })
