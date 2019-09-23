@@ -85,6 +85,14 @@
 		          	<v-list-tile-title>Stranger Things</v-list-tile-title>
 		        </v-list-tile-content>
         </v-list-tile>
+        <v-list-tile to="/ElizabethKubler">
+  				<v-list-tile-action>
+		        	<v-icon>movie_filter</v-icon>
+		        </v-list-tile-action>
+		        <v-list-tile-content>
+		          	<v-list-tile-title>Elizabeth</v-list-tile-title>
+		        </v-list-tile-content>
+        </v-list-tile>
   			</v-list-tile>
   			</v-list-tile>
   		</v-list>
@@ -186,6 +194,12 @@ export default {
           cor:"#F5DA81",
           imagem: "https://upload.wikimedia.org/wikipedia/pt/thumb/d/df/Chico-Xavier-1980.jpg/300px-Chico-Xavier-1980.jpg",
           autor: "Chico Xavier",
+        },
+        {
+          texto: "As pessoas são como vitrais coloridos: cintilam e brilham quando o sol está do lado de fora, mas quando a escuridão chega sua verdadeira beleza é revelada apenas se existir luz no interior.  -Elizabeth Kubler-Ross",
+          cor:"#D0A9F5",
+          imagem: "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Elisabeth_K%C3%BCbler-Ross_%281926_-_2004%29.jpg/220px-Elisabeth_K%C3%BCbler-Ross_%281926_-_2004%29.jpg",
+          autor: "Elizabeth Kubler-Ross",
         }
       ],
       mostra: false 

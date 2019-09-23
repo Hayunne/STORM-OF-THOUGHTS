@@ -10,9 +10,8 @@ import Charles from './views/CharlesBukowski.vue'
 import Machado from './views/MachadodeAssis.vue'
 import Immanuel from './views/ImmanuelKant.vue'
 import Fernando from './views/FernandoPessoa.vue'
-import Stranger from './views/StrangerThings.vue'
-
-
+import StrangerThings from './views/StrangerThings.vue'
+import ElizabethKubler from './views/ElizabethKubler.vue'
 
 
 Vue.use(Router)
@@ -64,8 +63,12 @@ export default new Router({
    },
    { path: '/StrangerThings',
     name: 'StrangerThings',
-    component: Stranger
+    component:StrangerThings
    },
-
+   { path: '/ElizabethKubler',
+    name: 'ElizabethKubler',
+    component:ElizabethKubler
+   },
+   
   ]
 })
